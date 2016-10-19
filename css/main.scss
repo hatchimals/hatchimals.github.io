@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
+}
+
+@mixin text3d($color) {
+    color:$color;
+    text-shadow:-1px -1px 0 darken($color, 40%),
+                1px -1px 0 darken($color, 40%),
+                -1px 1px 0 darken($color, 40%),
+                1px 1px 0 darken($color, 40%),
+
+                0 1px 0 darken($color, 20%),
+                0 2px 0 darken($color, 22.5%),
+                0 3px 0 darken($color, 25%),
+                0 4px 0 darken($color, 27.5%),
+                0 5px 0 darken($color, 30%),
+                0 6px 0 darken($color, 32.5%),
+                0 7px 0 darken($color, 35%),
+                0 8px 0 darken($color, 37.5%),
+                0 9px 0 darken($color, 40%),
+                0 10px 0 darken($color, 42.5%),
+                0 11px 0 darken($color, 45%),
+
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+}
+
+html, body {
+    font-family:"San Francisco", "Helvetica Neue", arial;
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding:0;
+    color:#fff;
+    background: linear-gradient(#f20b64, #be51e6);
+}
+main {
+    width:100%;
+    height:100%;
+}
+
+#logo {
+    font-family: 'Luckiest Guy', cursive;
+    left:0;
+    right:0;
+    position: absolute;
+    top:50%;
+    margin-top: -48pt;
+    text-align: center;
+
+    $c: #d8f247;
+    color: $c;
+    @include text3d($c);
+
+    font-weight: 900;
+    font-size: 10em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 96pt;
+}
+
