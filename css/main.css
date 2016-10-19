@@ -43,9 +43,9 @@ main {
   top: 50%;
   margin-top: -48pt;
   text-align: center;
-  color: #d8f247;
-  color: #d8f247;
-  text-shadow: -1px -1px 0 #576607, 1px -1px 0 #576607, -1px 1px 0 #576607, 1px 1px 0 #576607, 0 1px 0 #a9c50e, 0 2px 0 #9fb90d, 0 3px 0 #95ad0c, 0 4px 0 #8ba10b, 0 5px 0 #80950b, 0 6px 0 #768a0a, 0 7px 0 #6c7e09, 0 8px 0 #627208, 0 9px 0 #576607, 0 10px 0 #4d5a06, 0 11px 0 #434e06, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  color: #f8e604;
+  color: #f8e604;
+  text-shadow: -1px -1px 0 #2f2c01, 1px -1px 0 #2f2c01, -1px 1px 0 #2f2c01, 1px 1px 0 #2f2c01, 0 1px 0 #948902, 0 2px 0 #877d02, 0 3px 0 #7b7202, 0 4px 0 #6e6602, 0 5px 0 #615a02, 0 6px 0 #554f01, 0 7px 0 #484301, 0 8px 0 #3c3701, 0 9px 0 #2f2c01, 0 10px 0 #232001, 0 11px 0 #161500, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
   font-weight: 900;
   font-size: 10em;
   text-transform: uppercase;
