@@ -1,55 +1,75 @@
-@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 200;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2"); }
-
-@font-face {
-  font-family: "San Francisco";
-  font-weight: normal;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2"); }
-
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 500;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2"); }
-
-@font-face {
-  font-family: "San Francisco";
-  font-weight: bold;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2"); }
-
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Indie+Flower|Libre+Baskerville");
 /* line 53, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 html, body {
-  font-family: "San Francisco", "Helvetica Neue", arial;
+  font-family: 'Libre Baskerville', 'Indie Flower', cursive;
+  font-size: 16pt;
+  font-weight: 200;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #fff;
-  background: linear-gradient(to bottom, #b83295 0%, #1496d5 100%); }
+  color: #333;
+  background: linear-gradient(to bottom, #b83295 0%, #1496d5 100%);
+  background-attachment: fixed; }
 
-/* line 62, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 65, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 main {
   width: 100%;
   height: 100%; }
 
-/* line 67, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 70, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 #logo {
   font-family: 'Luckiest Guy', cursive;
   left: 0;
   right: 0;
-  position: absolute;
-  top: 50%;
-  margin-top: -48pt;
+  position: relative;
+  margin-bottom: 20px;
+  top: 20px;
+  z-index: 2;
   text-align: center;
   color: #fbfcfd;
   color: #fbfcfd;
   text-shadow: -1px -1px 0 #7396b9, 1px -1px 0 #7396b9, -1px 1px 0 #7396b9, 1px 1px 0 #7396b9, 0 1px 0 #b7c9db, 0 2px 0 #aec3d7, 0 3px 0 #a6bcd3, 0 4px 0 #9db6ce, 0 5px 0 #95b0ca, 0 6px 0 #8ca9c6, 0 7px 0 #84a3c2, 0 8px 0 #7b9cbd, 0 9px 0 #7396b9, 0 10px 0 #6a90b5, 0 11px 0 #6289b1, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
   font-weight: 900;
-  font-size: 10em;
+  font-size: 96pt;
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 96pt; }
+  /* line 90, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  #logo a {
+    color: #fbfcfd; }
+    /* line 92, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    #logo a:hover {
+      text-decoration: none; }
+
+/* line 98, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+.block-title {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  color: #fdfdfb;
+  color: #fdfdfb;
+  text-shadow: -1px -1px 0 #b9b973, 1px -1px 0 #b9b973, -1px 1px 0 #b9b973, 1px 1px 0 #b9b973, 0 1px 0 #dbdbb7, 0 2px 0 #d3d3a6, 0 3px 0 #caca95, 0 4px 0 #c2c284, 0 5px 0 #b9b973, 0 6px 0 #b1b162, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-weight: 400;
+  font-size: 48pt;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
+/* line 111, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+.block {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 100px; }
+
+/* line 117, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+.floated-image-left {
+  float: left;
+  height: 200px;
+  margin: 20px; }
+
+/* line 122, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+.floated-image-right {
+  float: right;
+  height: 200px;
+  margin: 20px; }
 
 /*# sourceMappingURL=main.css.map */
