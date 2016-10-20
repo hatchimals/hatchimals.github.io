@@ -27,7 +27,7 @@ html, body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background: linear-gradient(#f20b64, #be51e6); }
+  background: linear-gradient(to bottom, #b83295 0%, #1496d5 100%); }
 
 /* line 62, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 main {
@@ -43,9 +43,9 @@ main {
   top: 50%;
   margin-top: -48pt;
   text-align: center;
-  color: #f8e604;
-  color: #f8e604;
-  text-shadow: -1px -1px 0 #2f2c01, 1px -1px 0 #2f2c01, -1px 1px 0 #2f2c01, 1px 1px 0 #2f2c01, 0 1px 0 #948902, 0 2px 0 #877d02, 0 3px 0 #7b7202, 0 4px 0 #6e6602, 0 5px 0 #615a02, 0 6px 0 #554f01, 0 7px 0 #484301, 0 8px 0 #3c3701, 0 9px 0 #2f2c01, 0 10px 0 #232001, 0 11px 0 #161500, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  color: #fbfcfd;
+  color: #fbfcfd;
+  text-shadow: -1px -1px 0 #7396b9, 1px -1px 0 #7396b9, -1px 1px 0 #7396b9, 1px 1px 0 #7396b9, 0 1px 0 #b7c9db, 0 2px 0 #aec3d7, 0 3px 0 #a6bcd3, 0 4px 0 #9db6ce, 0 5px 0 #95b0ca, 0 6px 0 #8ca9c6, 0 7px 0 #84a3c2, 0 8px 0 #7b9cbd, 0 9px 0 #7396b9, 0 10px 0 #6a90b5, 0 11px 0 #6289b1, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
   font-weight: 900;
   font-size: 10em;
   text-transform: uppercase;
