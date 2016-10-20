@@ -57,7 +57,7 @@ html, body {
     margin: 0;
     padding:0;
     color:#fff;
-    background: linear-gradient(#f20b64, #be51e6);
+    background: linear-gradient(to bottom, #b83295 0%, #1496d5 100%);
 }
 main {
     width:100%;
@@ -73,7 +73,7 @@ main {
     margin-top: -48pt;
     text-align: center;
 
-    $c: #f8e604;
+    $c: #fbfcfd;
     color: $c;
     @include text3d($c);
 
