@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1 class="block-title">HOPPSAN, Sidan du besökte finns visst inte!</h1>
+<div class="block">
+    <h1 class="sub-title">
+
+    </h1>
+    <p>
+        Förmodligen har vi gjort något fel. Oroa dig inte.
+        <a class="btn btn-primary">
+
+            Till startsidan
+        </a>
+    </p>
+</div>
+
+
+<h1 class="block-title">Frågor och svar</h1>
+<div class="block">
+    {% for post in site.posts %}
+        {% if post.categories contains 'qa' %}
+            <article>
+                <h3>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                </h3>
+            </article>
+        {% endif %}
+    {% endfor %}
+</div>
