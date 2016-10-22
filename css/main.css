@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Indie+Flower|Libre+Baskerville");
-/* line 53, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 52, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 html, body {
   font-family: 'Libre Baskerville', 'Indie Flower', cursive;
   font-size: 16pt;
@@ -12,12 +12,12 @@ html, body {
   background: linear-gradient(to bottom, #b83295 0%, #1496d5 100%);
   background-attachment: fixed; }
 
-/* line 65, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 64, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 main {
   width: 100%;
   height: 100%; }
 
-/* line 70, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 69, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 #logo {
   font-family: 'Luckiest Guy', cursive;
   left: 0;
@@ -35,38 +35,50 @@ main {
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 96pt; }
-  /* line 90, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 89, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   #logo a {
     color: #fbfcfd; }
-    /* line 92, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    /* line 91, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     #logo a:hover {
       text-decoration: none; }
 
-/* line 98, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 97, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .block-title {
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
   color: #fdfdfb;
   color: #fdfdfb;
-  text-shadow: -1px -1px 0 #b9b973, 1px -1px 0 #b9b973, -1px 1px 0 #b9b973, 1px 1px 0 #b9b973, 0 1px 0 #dbdbb7, 0 2px 0 #d3d3a6, 0 3px 0 #caca95, 0 4px 0 #c2c284, 0 5px 0 #b9b973, 0 6px 0 #b1b162, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  text-shadow: -1px -1px 0 #b9b973, 1px -1px 0 #b9b973, -1px 1px 0 #b9b973, 1px 1px 0 #b9b973, 0 1px 0 #dbdbb7, 0 2px 0 #d3d3a6, 0 3px 0 #caca95, 0 4px 0 #c2c284, 0 5px 0 #b9b973, 0 6px 0 #b1b162, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
   font-weight: 400;
   font-size: 48pt;
   text-transform: uppercase;
   letter-spacing: 5px; }
 
-/* line 111, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 110, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .block {
   padding: 20px;
   background: #fff;
   margin-bottom: 100px; }
 
-/* line 117, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 116, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+.sub-title {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  color: #fdfbfd;
+  color: #fdfbfd;
+  text-shadow: -1px -1px 0 #b973b9, 1px -1px 0 #b973b9, -1px 1px 0 #b973b9, 1px 1px 0 #b973b9, 0 1px 0 #dbb7db, 0 2px 0 #d3a6d3, 0 3px 0 #ca95ca, 0 4px 0 #c284c2, 0 5px 0 #b973b9, 0 6px 0 #b162b1, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
+  font-weight: 900;
+  font-size: 24pt;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
+/* line 130, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .floated-image-left {
   float: left;
   height: 200px;
   margin: 20px; }
 
-/* line 122, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 135, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .floated-image-right {
   float: right;
   height: 200px;
