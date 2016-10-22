@@ -36,6 +36,7 @@
             <div id="logo">
                 <a href="/">Hatchimals</a>
             </div>
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-offset-1 col-md-10">
@@ -51,22 +52,6 @@
                 <div class="row">
                     <div class="col-md-12">
                         {{ content }}
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                       <h1 class="block-title">Frågor och svar</h1>
-                        <div class="block">
-                            {% for post in site.posts %}
-                            <article>
-                                <h3>
-<!--                                    {{ post.date | date: "%b %-d, %Y" }}-->
-                                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-                                </h3>
-                            </article>
-
-                            {% endfor %}
-                        </div>
                     </div>
                 </div>
             </div>

@@ -50,13 +50,13 @@
                        <h1 class="block-title">Frågor och svar</h1>
                         <div class="block">
                             {% for post in site.posts %}
-                            <article>
-                                <h3>
-<!--                                    {{ post.date | date: "%b %-d, %Y" }}-->
-                                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-                                </h3>
-                            </article>
-
+                                {% if post.categories contains 'qa' %}
+                                    <article>
+                                        <h3>
+                                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                                        </h3>
+                                    </article>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>
