@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<h1 class="block-title">Kontakta oss</h1>
+
+<div class="block">
+    <h3 class="sub-title">Skicka oss ett meddelande</h3>
+    <p>
+        Vi är glada för all feedback vi kan få. Skicka oss ett meddelande och berätta vad du tycker.
+    </p>
+    <form method="POST" action="http://formspree.io/hatchimals.se@gmail.com">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email">E-post</label>
+                    <input type="email" name="email" class="form-control input-lg" placeholder="Fyll gärna i denna om du vill att vi skall svara dig">
+                </div>
+                <div class="form-group">
+                    <label for="name">Namn</label>
+                    <input type="text" name="name" class="form-control input-lg" placeholder="Berätta gärna vad du heter så vi vet vad personen vi skall svara heter :)">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Meddelande</label>
+            <textarea name="message" rows="10" class="form-control input-lg" placeholder="Skriv ditt meddelande här..."></textarea>
+        </div>
+
+        <input type="hidden" name="_next" value="http://www.hatchimals.se/pages/thankyou.html" />
+
+        <button class="btn btn-lg btn-primary" type="submit">Skicka</button>
+    </form>
+</div>
+

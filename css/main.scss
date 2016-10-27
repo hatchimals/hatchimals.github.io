@@ -74,7 +74,15 @@ footer {
         display: inline-block;
         padding:20px;
         color:#fff;
+        &:hover {
+            color:#fff;
+        }
+        @media(max-width: 992px) {
+            display: block;
+        }
     }
+
+
 }
 
 #logo {
@@ -105,8 +113,8 @@ footer {
     }
 
     @media(max-width: 992px) {
-        font-size: 48pt;
-        line-height: 86pt;
+        font-size: 32pt;
+        line-height: 78pt;
         text-align: left;
         padding-left: 20px;
     }
@@ -184,6 +192,10 @@ footer {
     font-size: 48pt;
     text-transform: uppercase;
     letter-spacing: 5px;
+
+    @media(max-width: 992px) {
+        font-size: 24pt;
+    }
 }
 .block {
     padding:20px;
@@ -221,6 +233,10 @@ footer {
     font-size: 24pt;
     text-transform: uppercase;
     letter-spacing: 5px;
+
+    @media(max-width: 992px) {
+        font-size: 18pt;
+    }
 }
 
 .floated-image-left {
