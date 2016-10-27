@@ -62,7 +62,7 @@ footer {
   @media (max-width: 992px) {
     /* line 88, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     #logo {
-      font-size: 32pt;
+      font-size: 24pt;
       line-height: 78pt;
       text-align: left;
       padding-left: 20px; } }
