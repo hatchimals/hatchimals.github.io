@@ -62,12 +62,14 @@ footer {
   @media (max-width: 992px) {
     /* line 88, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     #logo {
+      color: #fbfcfd;
+      text-shadow: -1px -1px 0 #7396b9, 1px -1px 0 #7396b9, -1px 1px 0 #7396b9, 1px 1px 0 #7396b9, 0 1px 0 #b7c9db, 0 2px 0 #a6bcd3, 0 3px 0 #95b0ca, 0 4px 0 #84a3c2, 0 5px 0 #7396b9, 0 6px 0 #6289b1, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
       font-size: 24pt;
       line-height: 78pt;
       text-align: left;
       padding-left: 20px; } }
 
-/* line 124, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 125, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 #menu-close,
 #menu-open {
   top: 20px;
@@ -83,17 +85,17 @@ footer {
   background: rgba(0, 0, 0, 0.5);
   line-height: 110px; }
 
-/* line 139, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 140, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 #menu-open {
   position: fixed;
   z-index: 101; }
 
-/* line 143, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 144, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 #menu-close {
   position: fixed;
   z-index: 102; }
 
-/* line 148, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 149, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 #menu {
   font-family: "classic-comic", sans-serif;
   display: none;
@@ -104,26 +106,26 @@ footer {
   left: 0;
   right: 0;
   background: rgba(255, 255, 255, 0.97); }
-  /* line 159, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 160, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   #menu.open {
     display: block; }
-  /* line 163, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 164, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   #menu nav {
     text-align: center;
     font-size: 40pt;
     padding: 100px; }
-    /* line 169, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    /* line 170, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     #menu nav a {
       color: #000;
       display: block;
       text-decoration: none;
       line-height: 40pt;
       margin-bottom: 30px; }
-      /* line 175, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+      /* line 176, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
       #menu nav a:hover {
         color: #444; }
 
-/* line 183, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 184, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .block-title {
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
@@ -135,35 +137,35 @@ footer {
   text-transform: uppercase;
   letter-spacing: 5px; }
   @media (max-width: 992px) {
-    /* line 183, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    /* line 184, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     .block-title {
       font-size: 24pt; } }
 
-/* line 200, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 201, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .block {
   padding: 20px;
   background: #fff;
   margin-bottom: 100px; }
-  /* line 204, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 205, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   .block.no-padding {
     margin: 0;
     padding: 0; }
 
-/* line 210, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 211, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .list-group {
   font-family: "classic-comic", sans-serif;
   font-size: 12pt; }
-  /* line 213, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 214, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   .list-group a {
     display: block;
     padding: 15px; }
-  /* line 217, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 218, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   .list-group p {
     display: block;
     padding: 30px 15px;
     background: #eee; }
 
-/* line 224, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 225, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .sub-title {
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
@@ -175,23 +177,23 @@ footer {
   text-transform: uppercase;
   letter-spacing: 5px; }
   @media (max-width: 992px) {
-    /* line 224, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    /* line 225, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     .sub-title {
       font-size: 18pt; } }
 
-/* line 242, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 243, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .floated-image-left {
   float: left;
   height: 200px;
   margin: 20px; }
 
-/* line 247, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 248, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .floated-image-right {
   float: right;
   height: 200px;
   margin: 20px; }
 
-/* line 253, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 254, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .btn {
   font-family: "classic-comic", sans-serif;
   text-shadow: 2px 2px #000; }
