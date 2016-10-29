@@ -11,7 +11,7 @@ permalink: /kontakta-oss/
     <p>
         Vi är glada för all feedback vi kan få. Skicka oss ett meddelande och berätta vad du tycker.
     </p>
-    <form method="POST" action="http://formspree.io/hatchimals.se@gmail.com">
+    <form id="contactus" method="POST" action="http://formspree.io/hatchimals.se@gmail.com">
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
@@ -31,9 +31,8 @@ permalink: /kontakta-oss/
             <textarea name="message" rows="10" class="form-control input-lg" placeholder="Skriv ditt meddelande här..."></textarea>
         </div>
 
-        <input type="hidden" name="_next" value="http://www.hatchimals.se/pages/thankyou.html" />
+        <input type="hidden" name="_next" value="http://www.hatchimals.se/thankyou/" />
 
-        <input class="btn btn-lg btn-primary" name="submit" type="submit">Skicka</button>
+        <input class="btn btn-lg btn-primary" name="submit" type="submit" value="Skicka" />
     </form>
 </div>
-
