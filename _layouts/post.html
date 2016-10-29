@@ -12,27 +12,7 @@ layout: base
     </div>
     <div class="row">
         <div class="col-md-12">
-            <h1 class="block-title">Fler frågor och svar</h1>
-            <div class="block no-padding">
-                <div class="list-group">
-                    {% for post in site.posts %}
-                        {% if post.categories contains 'qa' %}
-                            <a class="list-group-item" href="{{ post.url | prepend: site.baseurl }}">
-                                {{ post.title | escape }}
-                                <span class="glyphicon glyphicon-menu-right pull-right"></span>
-                            </a>
-
-                        {% endif %}
-                    {% endfor %}
-
-                    <p>
-                        Vi försöker fylla på med fler frågor och svar allt eftersom.
-                        Vi gör allt vi kan för att så snabbt som möjligt ha information på svenska för Hatchimals.
-                    </p>
-                </div>
-
-
-            </div>
+            {% include fragor-och-svar-top.html %}
         </div>
     </div>
 </div>

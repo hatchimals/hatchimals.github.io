@@ -215,7 +215,9 @@ footer {
         display: block;
         padding: 15px;
     }
-    p {
+
+    p,
+    a.showAll {
         display: block;
         padding: 30px 15px;
         background: #eee;
