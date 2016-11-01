@@ -16,16 +16,4 @@ permalink: /404.html
     </p>
 </div>
 
-
-<h1 class="block-title">Frågor och svar</h1>
-<div class="block">
-    {% for post in site.posts %}
-        {% if post.categories contains 'qa' %}
-            <article>
-                <h3>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-                </h3>
-            </article>
-        {% endif %}
-    {% endfor %}
-</div>
+{% include fragor-och-svar-top.html %}

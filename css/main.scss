@@ -258,3 +258,33 @@ footer {
     text-shadow: 2px 2px #000;
 }
 
+ol {
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 0;
+
+    & > li {
+        position: relative;
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+        &:before {
+            font-family: "classic-comic", sans-serif;
+            position: absolute;
+            left:-50px;
+            top:0;
+            display: block;
+            margin-bottom: 10px;
+            content: counter(item) "  ";
+            counter-increment: item;
+            width:30px;
+            height:30px;
+            border-radius: 50px;
+            text-align: center;
+            color:#fff;
+            display: inline-block;
+            background: #000;
+            margin-right: 10px;
+        }
+    }
+}
