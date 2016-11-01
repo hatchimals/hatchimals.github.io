@@ -199,4 +199,33 @@ footer {
   font-family: "classic-comic", sans-serif;
   text-shadow: 2px 2px #000; }
 
+/* line 261, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+ol {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0; }
+  /* line 266, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  ol > li {
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 10px; }
+    /* line 271, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    ol > li:before {
+      font-family: "classic-comic", sans-serif;
+      position: absolute;
+      left: -50px;
+      top: 0;
+      display: block;
+      margin-bottom: 10px;
+      content: counter(item) "  ";
+      counter-increment: item;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      text-align: center;
+      color: #fff;
+      display: inline-block;
+      background: #000;
+      margin-right: 10px; }
+
 /*# sourceMappingURL=main.css.map */
