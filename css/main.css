@@ -233,4 +233,9 @@ ol {
       background: #000;
       margin-right: 10px; }
 
+/* line 297, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+div[class^="col-"] {
+  padding-left: 0;
+  padding-right: 0; }
+
 /*# sourceMappingURL=main.css.map */
