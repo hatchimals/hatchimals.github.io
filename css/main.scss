@@ -27,6 +27,7 @@
                 0 10px 10px rgba(0,0,0,.2),
                 0 20px 20px rgba(0,0,0,.15);
 }
+
 @mixin text3dsmall($color) {
     color:$color;
     text-shadow:-1px -1px 0 darken($color, 40%),
