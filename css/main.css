@@ -117,14 +117,14 @@ footer {
   /* line 170, C:/Users/johosc/Dropbox/hatchimals.se/css/main.scss */
   #menu nav {
     text-align: center;
-    font-size: 40pt;
+    font-size: 20pt;
     padding: 100px; }
     /* line 176, C:/Users/johosc/Dropbox/hatchimals.se/css/main.scss */
     #menu nav a {
       color: #000;
       display: block;
       text-decoration: none;
-      line-height: 40pt;
+      line-height: 20pt;
       margin-bottom: 30px; }
       /* line 182, C:/Users/johosc/Dropbox/hatchimals.se/css/main.scss */
       #menu nav a:hover {
