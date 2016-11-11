@@ -209,8 +209,10 @@ footer {
     background:#fff;
     margin-bottom: 100px;
     &.no-padding {
-        margin:0;
         padding: 0;
+    }
+    &.no-margin {
+        margin: 0;
     }
 }
 
@@ -301,6 +303,6 @@ div[class^="col-"] {
     padding-right: 0;
 }
 
-.btn-block {
-    margin:10px;
+.btn {
+    margin-bottom:20px;
 }
