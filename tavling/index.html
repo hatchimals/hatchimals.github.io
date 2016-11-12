@@ -1,0 +1,110 @@
+---
+layout: base
+---
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="block-title">Tävling</h1>
+            <div class="block">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="sub-title">Quiz!</h1>
+                        <div class="block">
+                            <form id="contactus" method="POST" action="http://formspree.io/hatchimals.se@gmail.com">
+
+                                <fieldset class="form-group">
+                                    <legend>Vilken av följande är en Hatchimal?</legend>
+                                    <div class="btn-group btn-group-justified" data-toggle="buttons">
+                                        <label class="btn btn-lg btn-primary">
+                                            <input type="radio" name="q1" id="q1_1" value="Paragorn" />Paragorn
+                                        </label>
+                                        <label class="btn btn-lg btn-primary">
+                                            <input type="radio" name="q1" id="q1_2" value="Owlicorn" />Owlicorn
+                                        </label>
+                                        <label class="btn btn-lg btn-primary">
+                                            <input type="radio" name="q1" id="q1_3" value="Baluba" />Baluba
+                                        </label>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="form-group">
+                                    <legend>Vilket år lanserades Hatchimals?</legend>
+                                    <div class="btn-group btn-group-justified" data-toggle="buttons">
+                                        <label class="btn btn-lg btn-primary">
+                                            <input type="radio" name="q1" id="q1_1" value="Paragorn" />2014
+                                        </label>
+                                        <label class="btn btn-lg btn-primary">
+                                            <input type="radio" name="q1" id="q1_2" value="Owlicorn" />2015
+                                        </label>
+                                        <label class="btn btn-lg btn-primary">
+                                            <input type="radio" name="q1" id="q1_3" value="Baluba" />2016
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <hr>
+
+                                <div class="form-group">
+                                    <label for="email">Vad har du för e-post?</label>
+                                    <input name="email" id="email" type="email" placeholder="Fyll i din e-post" class="form-control input-lg">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="instagramUsername">Vad heter du på instagram?</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">@</span>
+                                        <input name="instagramUsername" id="instagramUsername" type="text" placeholder="Fyll i ditt namn på instagram" class="form-control input-lg">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="motivation">Berätta varför just du borde vinna en Hatchimal</label>
+                                    <textarea name="motivation" id="motivation" rows="10" class="form-control input-lg" placeholder="Skriv varför du borde vinna..."></textarea>
+                                </div>
+
+                                <input type="hidden" name="_subject" value="Tävling" />
+                                <input type="hidden" name="_next" value="http://www.hatchimals.se/tavling/tack.html" />
+
+                            </form>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="sub-title">Kom ihåg!</h1>
+                        <div class="block">
+                            <ul class="todo">
+                                <li>Följ vårt konto @hatchimals.se på instagram</li>
+                                <li>Lajka tävlingsbilden</li>
+                                <li>Tagga fem vänner i kommerntarsfältet till tävlings-bilden</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- FirstAd -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2568813711883993"
+                 data-ad-slot="3181079469"
+                 data-ad-format="auto"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+
+            {% include fragor-och-svar-top.html %}
+
+        </div>
+    </div>
+</div>
