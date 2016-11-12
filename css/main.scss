@@ -121,7 +121,7 @@ footer {
     @media(max-width: 992px) {
         @include text3dsmall($c);
         font-size: 24pt;
-        line-height: 78pt;
+        line-height: 39pt;
         text-align: left;
         padding-left: 20px;
     }
@@ -134,6 +134,7 @@ footer {
     font-size:48pt;
     width:96px;
     height:96px;
+    line-height: 110px;
     display: block;
 
     text-align: center;
@@ -141,7 +142,14 @@ footer {
     text-decoration: none;
     color:#fff;
     background:rgba(0,0,0,.5);
-    line-height: 110px;
+
+
+    @media(max-width: 768px) {
+        font-size:24pt;
+        width:48px;
+        height:48px;
+        line-height: 55px;
+    }
 }
 #menu-open {
     position: fixed;
@@ -329,4 +337,11 @@ form {
 }
 fieldset {
     margin-bottom: 50px !important;
+}
+small {
+    font-size: 8pt;
+    font-family: arial;
+}
+.help-block {
+    font-size: 10pt;
 }
