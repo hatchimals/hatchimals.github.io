@@ -216,19 +216,20 @@ footer {
 .btn {
   font-family: "classic-comic", sans-serif;
   text-shadow: 2px 2px #000;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  white-space: normal; }
 
-/* line 281, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 282, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 ol {
   counter-reset: item;
   list-style-type: none;
   padding-left: 0; }
-  /* line 286, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 287, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   ol > li {
     position: relative;
     margin-left: 50px;
     margin-bottom: 10px; }
-    /* line 291, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    /* line 292, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     ol > li:before {
       font-family: "classic-comic", sans-serif;
       position: absolute;
@@ -247,14 +248,14 @@ ol {
       background: #000;
       margin-right: 10px; }
 
-/* line 313, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 314, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 ul.todo {
   list-style-type: none;
   font-family: "classic-comic", sans-serif; }
-  /* line 316, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  /* line 317, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
   ul.todo > li {
     margin-bottom: 20px; }
-    /* line 318, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+    /* line 319, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
     ul.todo > li:before {
       content: '';
       display: inline-block;
@@ -264,26 +265,26 @@ ul.todo {
       border: 5px solid #888;
       margin-right: 10px; }
 
-/* line 332, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 333, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 div[class^="col-"] {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 337, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 338, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 form {
   font-family: "classic-comic", sans-serif;
   font-size: 18pt; }
 
-/* line 341, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 342, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 fieldset {
   margin-bottom: 50px !important; }
 
-/* line 344, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 345, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 small {
   font-size: 8pt;
   font-family: arial; }
 
-/* line 348, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 349, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .help-block {
   font-size: 10pt; }
 
