@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="3;url={{ content }}">
+        <script type="text/javascript">
+            (function() {
+                setTimeout(function() {
+                    window.location.href = "{{ content }}";
+                }, 3000);
+            }());
+        </script>
+        <title>Vi skickar dig nu vidare</title>
+    </head>
+    <body>
+
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        Om du inte automatiskt blir omdirigerad inom 3 sekunder, <a href="{{ content }}">klicka här</a>.
+    </body>
+</html>
