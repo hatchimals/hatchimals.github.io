@@ -269,22 +269,26 @@ ul.todo {
 div[class^="col-"] {
   padding-left: 0;
   padding-right: 0; }
+  /* line 337, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+  div[class^="col-"] div[class^="col-"] {
+    padding-right: 15px;
+    padding-left: 15px; }
 
-/* line 338, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 343, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 form {
   font-family: "classic-comic", sans-serif;
   font-size: 18pt; }
 
-/* line 342, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 347, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 fieldset {
   margin-bottom: 50px !important; }
 
-/* line 345, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 350, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 small {
   font-size: 8pt;
   font-family: arial; }
 
-/* line 349, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
+/* line 354, /Users/kodninja/Dropbox/hatchimals.se/css/main.scss */
 .help-block {
   font-size: 10pt; }
 
