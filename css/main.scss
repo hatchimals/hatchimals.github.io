@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Indie+Flower|Libre+Baskerville');
 
+@mixin gradient($color) {
+    $second: darken($color, 10%);
+    background: $color; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color, $second); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color, $second); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color, $second); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color, $second); /* Standard syntax */
+}
+
 @mixin text3d($color) {
     color:$color;
     text-shadow:-1px -1px 0 darken($color, 40%),
@@ -63,11 +72,60 @@ html, body {
     background: linear-gradient(20deg, #b83295 0%, #1496d5 100%);
     background-attachment: fixed;
 }
-
-#world {
-    position: fixed;
-    z-index: 0;
+hr {
+    width:50%;
 }
+.block {
+    .ribbon {
+        $size:40px;
+        $color:#ce1616;
+        @include gradient($color);
+
+        margin:10px (-$size - 20px);
+        padding: 20px 50px;
+        //background:$color;
+        position: relative;
+        box-shadow: 0 2px 6px #444,
+                    0 5px 0 -10px #000;
+        border-radius: 2px;
+        color:#fff;
+
+        h1 {
+            font-family:'Luckiest Guy', cursive;
+            @include text3dsmall(#fff);
+            //font-family:"classic-comic", sans-serif;
+
+            font-size:48pt;
+            text-align: center;
+        }
+        p {
+            font-family:"classic-comic", sans-serif;
+        }
+        .btn {
+            margin:20px;
+        }
+        &:before,
+        &:after {
+            display: block;
+            width: $size;
+            height: 0;
+            position: absolute;
+            bottom: -$size/3;
+            content: "";
+            border-bottom: $size/3 solid transparent;
+        }
+        &:before{
+            left: 0;
+            border-right: $size solid darken($color,30%);
+        }
+        &:after {
+            right: 0;
+            border-left: $size solid darken($color, 30%);
+        }
+    }
+}
+
+
 main {
     min-height:100vh;
 }
@@ -277,6 +335,12 @@ footer {
     text-shadow: 2px 2px #000;
     margin-bottom:20px;
     white-space: normal;
+
+    &.btn-xl {
+        font-size: 20pt;
+        padding:20px 30px;
+        border-radius: 10px;
+    }
 }
 
 ol {
